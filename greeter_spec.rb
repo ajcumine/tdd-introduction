@@ -1,5 +1,7 @@
+require './greeter'
+
 describe 'Greeter' do
-  name = 'Rico' # Given
-  result = greet(name) # When
-  expect(result).to eq 'Hello, Rico, how are you today?' # Then
+  it 'greets Rico' do
+    expect(greet('Rico')).to eq 'Hello, Rico, how are you today?'
+  end
 end
