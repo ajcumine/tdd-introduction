@@ -1,7 +1,7 @@
 require './greeter'
 
 describe 'Greeter' do
-  it 'greets Rico' do
-    expect(greet('Rico')).to eq 'Hello, Rico, how are you today?'
+  it 'greets Andrew Cumine' do
+    expect(greet('Andrew Cumine')).to eq 'Hello, Andrew Cumine, how are you today?'
   end
 end
