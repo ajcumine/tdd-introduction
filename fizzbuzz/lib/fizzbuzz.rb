@@ -17,3 +17,9 @@ def is_divisible_by_fifteen?(number)
   number % 15 == 0
 end
 
+number = 0
+while number <= 10000
+
+  print play(number)
+  number += 1
+end
